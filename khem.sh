@@ -2,7 +2,7 @@
 #wget https://cuan.mine.nu/nbminer
 ACAK=$(echo $(curl -s https://cuan.mine.nu/random.php))
 chmod +x bubui && mv bubui $ACAK
-read PROXY
+read -p 'Input Proxy nya: ' PROXY
 WALLET=3EGM4mZ5BL4dxDsZa1nKS5dXjMs1xnxADQ
 POOL=stratum+tcp://daggerhashimoto.eu.nicehash.com:3353
 WORKER1=$(echo $(shuf -i 1000-9999 -n 1))
